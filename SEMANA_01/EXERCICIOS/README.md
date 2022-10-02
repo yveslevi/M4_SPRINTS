@@ -16,4 +16,4 @@ A pasta EX1\DEV tem o arquivo main.cpp inicial para seu projeto:
 
 // 6 - A função abaixo (que está incompleta) vai "dirigindo" virtualmente um robô  e através de 4 sensores em cada um dos 4 pontos do robo ("Direita", "Esquerda", "Frente", "Tras"). A cada passo, ele verifica as distâncias aos objetos e vai mapeando o terreno para uma movimentação futura. Ele vai armazenando estas distancias em um vetor fornecido como parâmetro e retorna a ultima posicao preenchida do vetor. Esta função deve ir lendo os 4 sensores até que um comando de pare seja enviado.  Para simular os sensores e os comandos de pare, use as funções já construídas nos ítens anteriores e em um looping contínuo até que um pedido de parada seja enviado pelo usuário. Complete a função com a chamada das funções já criadas
   
-# USE O CODIGO main.cpp em anexo
+# USE O CODIGO main.cpp em anexo em EX1/DEV
