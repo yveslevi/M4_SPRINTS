@@ -1,4 +1,5 @@
 Exercício Prático sobre Autenticação Multifator
+
 a) (2.0) pontos. Desenvolva uma montagem experimental em protoboard que torne possível a interface do ESP32 com o leitor de impressão digital e com 5 botões (4 botões de dados e 1 botão de confirmação);
 
 
