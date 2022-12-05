@@ -2,8 +2,8 @@
 #include <WebServer.h>
 
 /* Put your SSID & Password */
-const char* ssid = "SHARE-RESIDENTE 2";  // Enter SSID here
-const char* password = "Share@residente";  //Enter Password here
+const char* ssid = "Inteli-COLLEGE";  // Enter SSID here
+const char* password = "QazWsx@123";  //Enter Password here
 
 WebServer server(80);
 
@@ -17,14 +17,14 @@ bool LED2status = LOW;
 void handle_x(){
   digitalWrite(LED1pin, HIGH);
   server.send(200, "sent");
-  delay(1000);
+  delay(500);
   digitalWrite(LED1pin, LOW);
 }
 
 void handle_o(){
   digitalWrite(LED2pin, HIGH);
   server.send(200, "sent");
-  delay(1000);
+  delay(500);
   digitalWrite(LED2pin, LOW);
 }
 

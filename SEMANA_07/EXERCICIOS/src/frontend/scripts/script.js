@@ -35,9 +35,9 @@ $(function(){
             $(".casa").off("click");
         }
         if (vencedor == 1){
-            axios.get("") //aqui vai entrar o IP com a rota X
+            axios.get("http://10.128.64.238:80/x") //aqui vai entrar o IP com a rota X
         }else if(vencedor == 2){
-            axios.get("") //aqui vai entrar o IP com a rota Y
+            axios.get("http://10.128.64.238:80/o") //aqui vai entrar o IP com a rota O
         }
     }
 
